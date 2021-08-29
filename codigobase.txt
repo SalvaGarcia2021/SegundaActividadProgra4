@@ -1,0 +1,11 @@
+create database RecargasBD;
+
+use RecargasBD;
+
+create table Recarga(
+Id int primary key not null auto_increment,
+linea_celular varchar(25),
+num_celular int,
+cantidad_recarga int,
+fecha_recarga date
+);
